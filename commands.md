@@ -1,6 +1,6 @@
 # TERMINAL
 
-> recusively search for query inside all the files in a folder
+* recusively search for query inside all the files in a folder
 
 `grep -rnw "<folder>" -e "<query>"`
 
@@ -8,14 +8,14 @@
 
 # GIT
 
-> fetch a branch from remote
+* fetch a branch from remote
 
 `git checkout -b <branch> <remote/branch>`
 
-> pick single commit from any branch and apply to any barnch
+* pick single commit from any branch and apply to any barnch
 
 `git cherry-pick <commit-hash>`
 
-> squash commits
+* squash commits
 
 `git rebase -i HEAD~<num-commits>`
