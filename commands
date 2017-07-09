@@ -1,2 +1,0 @@
-// recusively search for query inside all the files in a folder
-grep -rnw "folder" -e "query"
