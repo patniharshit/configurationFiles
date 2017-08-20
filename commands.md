@@ -23,3 +23,8 @@
 * count number of commits
 
   `git rev-list --count HEAD`
+
+* delete a file from all the commits, useful for deleting some big files 
+  which have been commited by mistake
+  
+  `git filter-branch --tree-filter 'rm -f wiki-search-small.xml' HEAD`
